@@ -1,0 +1,45 @@
+@media all {
+  .champ-recherche{
+    padding-left: 2vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .search-logo-1{
+    opacity: 0.5;
+    color: gray ;
+  }
+}
+@media all and (min-width: 1200px) {
+  .input-champ{
+    border-radius: 2vh;
+    height: auto;
+    padding-top: 0.8vh;
+  }
+  .champ-recherche{
+    height: 5vh;
+  }
+}
+
+
+@media all and (max-width: 1199px) and (min-width: 992px){
+  .input-champ{
+    border-radius: 2vh;
+    height: auto;
+    padding-left: 2vh;
+    padding-top: 0.5vh;
+  }
+  .champ-recherche{
+    height: 6vh;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}

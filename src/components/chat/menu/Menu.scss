@@ -1,0 +1,257 @@
+@media screen and (min-width: 1200px){
+  .menu-principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 12vh;
+    margin-top: 2vh;
+    padding-top: 3.5vh;
+    background-color: white;
+  }
+
+  .menu-1{
+    width: 26.7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .menu-11{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .menu-2{
+    width: 84%;
+    height: 8.5vh;
+    background-color: #f4f5f8;
+    border-radius: 2vh 2vh 0vh 0vh;
+  }
+  .menu-3{
+    width: 5.3%;
+    text-align: center;
+    margin-top: 2vh;
+  }
+
+  .bar{
+    width: 100%;
+    margin-left: -5vh;
+  }
+  .messenger-logo{
+    margin-left: 4vh;
+  }
+
+  .messenger-message{
+    opacity: 0.5;
+    color: blue;
+    font-weight: bold;
+    font-size: 4vh;
+  }
+
+  .messenger-open{
+    color: gray;
+    float: right;
+    opacity: 0.3;
+    font-weight: bold;
+  }
+
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .menu-principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 12vh;
+    margin-top: 2vh;
+    padding-top: 3.5vh;
+    background-color: white;
+  }
+
+  .menu-1{
+    width: 26.7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .menu-11{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .menu-2{
+    width: 80%;
+    height: 8.5vh;
+    background-color: #f4f5f8;
+    border-radius: 2vh 2vh 0vh 0vh;
+  }
+  .menu-3{
+    width: 7%;
+    text-align: center;
+    margin-top: 2vh;
+  }
+
+  .messenger-logo{
+    margin-left: 5vh;
+  }
+
+  .bar{
+    width: 110%;
+    margin-left: -7vh;
+  }
+
+  .messenger-message{
+    opacity: 0.5;
+    color: blue;
+    font-weight: bold;
+    font-size: 4vh;
+  }
+
+  .messenger-open{
+    color: gray;
+    float: right;
+    opacity: 0.3;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .menu-principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 12vh;
+    margin-top: 2vh;
+    padding-top: 3.5vh;
+    background-color: white;
+  }
+
+  .menu-1{
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .menu-11{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .menu-2{
+    width: 72%;
+    height: 8.5vh;
+    background-color: #f4f5f8;
+    border-radius: 2vh 2vh 0vh 0vh;
+  }
+  .menu-3{
+    width: 7%;
+    text-align: center;
+    margin-top: 2vh;
+  }
+
+  .messenger-logo{
+    margin-left: 10vh;
+  }
+
+  .bar{
+    width: 120%;
+    margin-left: -7vh;
+  }
+
+  .messenger-message{
+    opacity: 0.5;
+    color: blue;
+    font-weight: bold;
+    font-size: 3vh;
+  }
+  .messenger-open{
+    color: gray;
+    float: right;
+    opacity: 0.3;
+    font-weight: bold;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .menu-principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 12vh;
+    align-items: center;
+    margin-top: 2vh;
+    padding-top: 3.5vh;
+    background-color: white;
+  }
+
+  .menu-1{
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .menu-11{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .menu-2{
+    width: 60%;
+    height: 8.5vh;
+    background-color: #f4f5f8;
+    border-radius: 2vh 2vh 0vh 0vh;
+  }
+  .menu-3{
+    width: 7%;
+    text-align: center;
+  }
+
+  .messenger-logo{
+    margin-left: 10vh;
+  }
+
+  .bar{
+    width: 120%;
+    margin-left: -7vh;
+  }
+
+  .messenger-message{
+    opacity: 0.5;
+    color: blue;
+    font-weight: bold;
+    font-size: 2.5vh;
+  }
+
+  .messenger-open{
+    color: gray;
+    float: right;
+    opacity: 0.3;
+    font-weight: bold;
+  }
+
+  .text-size{
+    width: 10vh;
+    height: 10vh;
+  }
+  .size-back{
+    width: 4.5vh;
+    height: 4.5vh;
+  }
+}

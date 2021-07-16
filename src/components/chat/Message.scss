@@ -1,0 +1,159 @@
+@media screen and (min-width: 1200px){
+  .menu-total{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+  }
+
+  .gauche-total{
+    width: 24.7%;
+  }
+
+  .gauche-total-add{
+    width: 23%;
+  }
+
+  .centre-total{
+    height: calc(100vh - 106px);
+    background-color: #f9fafc;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0vh 0vh 5vh 5vh;
+  }
+  .width-centre{
+    width: 78.1%;
+  }
+
+  .width-centre-add{
+    width: 58.75%;
+  }
+
+  .droite-total{
+    width: 5%;
+  }
+
+  .droite-total-add{
+    width: 18.35%;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .menu-total{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+  }
+
+  .gauche-total{
+    width: 26.7%;
+  }
+
+  .gauche-total-add{
+    width: 23%;
+  }
+
+  .centre-total{
+    height: calc(100vh - 106px);
+    background-color: #f9fafc;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0vh 0vh 5vh 5vh;
+  }
+  .width-centre{
+    width: 80%;
+  }
+
+  .width-centre-add{
+    width: 58.75%;
+  }
+
+  .droite-total{
+    width: 7%;
+  }
+
+  .droite-total-add{
+    width: 18.35%;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .menu-total{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+  }
+
+  .gauche-total{
+    width: 26%;
+  }
+
+  .gauche-total-add{
+    width: 23%;
+  }
+
+  .centre-total{
+    height: calc(100vh - 106px);
+    background-color: #f9fafc;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0vh 0vh 5vh 5vh;
+  }
+  .width-centre{
+    width: 72%;
+  }
+
+  .width-centre-add{
+    width: 58.75%;
+  }
+
+  .droite-total{
+    width: 7%;
+  }
+
+  .droite-total-add{
+    width: 18.35%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu-total{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+  }
+
+  .gauche-total{
+    width: 24.7%;
+  }
+
+  .gauche-total-add{
+    width: 23%;
+  }
+
+  .centre-total{
+    height: calc(100vh - 106px);
+    background-color: #f9fafc;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0vh 0vh 5vh 5vh;
+  }
+  .width-centre{
+    width: 78.1%;
+  }
+
+  .width-centre-add{
+    width: 58.75%;
+  }
+
+  .droite-total{
+    width: 5%;
+  }
+
+  .droite-total-add{
+    width: 18.35%;
+  }
+}

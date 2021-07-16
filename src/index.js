@@ -1,13 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import {BrowserRouter as Router, Route} from "react-router-dom";
+import './index.scss';
+import 'semantic-ui-css/semantic.min.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Message1 from "./components/chat/Message1";
+import Message from "./components/chat/Message";
+import {Provider} from "react-redux";
+import store from "./store";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <Provider store={store}>
+    <Router>
+        <div>
+            <Route exact path="/"><App /></Route>
+            <Route exact path="/message"><Message1 /></Route>
+        </div>
+    </Router>
+    </Provider>,
   document.getElementById('root')
 );
 

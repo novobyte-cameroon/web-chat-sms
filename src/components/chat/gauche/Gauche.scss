@@ -1,0 +1,74 @@
+@media screen and (min-width: 1200px){
+  .gauche{
+    background-color: #ffffff;
+    margin-right: -3%;
+  }
+
+  .user-main-dive{
+    margin-top: 2vh;
+  }
+
+  .user-name-all{
+    width: 100%;
+    height: 10vh;
+    padding-top: 6%;
+    padding-left: -6%;
+  }
+  .setting-line{
+    padding-top: 3vh;
+    display: flex;
+  }
+
+  .user-name{
+    margin-left: -15%;
+  }
+
+  .active-chat-1{
+    margin-top: 4vh;
+  }
+
+  .active-chat-2{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+
+  .navigation-scroll{
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .couleur-hover{
+    height: 10vh;
+    padding-top: 2vh;
+  }
+  .couleur-hover:hover{
+    background-color: blue;
+    height: 10vh;
+    padding-top: 2vh;
+    border-radius: 2vh;
+  }
+
+  .user-chat-scroll{
+    overflow: auto;
+    margin-top: 1vh;
+    padding-top: 2vh;
+  }
+
+  .user-chat:hover{
+    background-color: #f9fafc;
+    border: 1px solid #f9fafc;
+    border-radius: 2vh;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}

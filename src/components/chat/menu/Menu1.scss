@@ -1,0 +1,71 @@
+@media screen and (min-width: 1200px){
+  .menu-principal-add{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 12vh;
+    margin-top: 2vh;
+    padding-top: 3.5vh;
+    background-color: white;
+  }
+
+  .menu-1-add{
+    width: 31.4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .menu-11-add{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .menu-2-add{
+    width: 80.3%;
+    height: 8.5vh;
+    background-color: #f4f5f8;
+    border-radius: 2vh 2vh 0vh 0vh;
+  }
+  .menu-31-add{
+    width: 24.8%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+  }
+
+  .chat-details{
+    margin-top: 1vh;
+    width: 95%;
+    font-size: 2.1vh;
+  }
+
+  .back-arrow{
+    margin-left: 2.5vh;
+    width: 30%;
+  }
+
+  .bar{
+    width: 100%;
+    margin-left: -5vh;
+  }
+  .messenger-logo-add{
+    margin-left: 4vh;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
