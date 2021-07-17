@@ -36,10 +36,10 @@ class Menu extends Component{
                         </div>
                     </div>
                     <div className="bar">
-                        <Divider variant="inset" component="li"/>
+                        <Divider variant="inset"/>
                     </div>
                 </div>
-                <div className="menu-2 item-center-main1">
+                <div className="menu-2">
                     <div style={{paddingLeft: '3vh', paddingTop: '3.4vh', fontSize: '2vh', opacity: '0.5'}}>Family Chat</div>
                 </div>
                 <div className="menu-3">

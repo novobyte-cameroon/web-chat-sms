@@ -5,6 +5,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    border-radius: 2vh;
   }
 
   .search-logo-1{
@@ -14,12 +15,11 @@
 }
 @media all and (min-width: 1200px) {
   .input-champ{
-    border-radius: 2vh;
     height: auto;
     padding-top: 0.8vh;
   }
   .champ-recherche{
-    height: 5vh;
+    height: 6vh;
   }
 }
 
@@ -29,7 +29,7 @@
     border-radius: 2vh;
     height: auto;
     padding-left: 2vh;
-    padding-top: 0.5vh;
+    padding-top: 1vh;
   }
   .champ-recherche{
     height: 6vh;
@@ -37,9 +37,23 @@
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
-
+  .input-champ{
+    border-radius: 2vh;
+    height: auto;
+    padding-top: 1vh;
+  }
+  .champ-recherche{
+    height: 6vh;
+  }
 }
 
 @media screen and (max-width: 767px) {
-
+  .input-champ{
+    border-radius: 2vh;
+    height: auto;
+    padding-top: 1vh;
+  }
+  .champ-recherche{
+    height: 6vh;
+  }
 }

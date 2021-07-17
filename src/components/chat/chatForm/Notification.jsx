@@ -19,7 +19,7 @@ class Notification extends Component{
         infoContact: false
     };
 
-    onClick=(event)=>{
+    onHandleOpen=(event)=>{
         event.preventDefault();
         this.setState({
             open : true,
@@ -35,12 +35,12 @@ class Notification extends Component{
         const {open, nb} = this.state;
         return (
             <>
-                <div className={"user-notification "+ (open ? "back" : "")} onClick={this.onClick}>
+                <div className={"user-notification "+ (open ? "back" : "")} onClick={this.onHandleOpen}>
                     <div className="user-notification-1">
-                        <div className="col-5">
+                        <div className="icon-size-1">
                             <Avatar round src={account} className="icon-size"/>
                         </div>
-                        <div className="col-9">
+                        <div className="nom-chat">
                             <div className="nom-user">
                                 Tamko Clarence
                             </div>
@@ -49,10 +49,8 @@ class Notification extends Component{
                             </div>
                         </div>
                     </div>
-                    <div></div>
-                    <div>
-                        <Badge badgeContent={nb} color="error" style={{marginLeft: '-3vh'}}>
-                        </Badge>
+                    <div className="user-notification-2">
+                        <Badge badgeContent={nb} color="error"/>
                     </div>
                 </div>
 

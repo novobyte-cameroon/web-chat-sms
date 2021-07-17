@@ -16,6 +16,8 @@ class Center extends Component{
         const {infoContact} = this.props
         return (
             <div className="input-center">
+                <TextMessage/>
+                <TextMessage/>
                 {infoContact ? <InputAdd1/> : <InputAdd/>}
             </div>
         );

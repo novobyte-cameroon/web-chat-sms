@@ -1,15 +1,39 @@
 import React, {Component} from 'react'
-import Segment from "semantic-ui-react/dist/commonjs/elements/Segment";
-import Header from "semantic-ui-react/dist/commonjs/elements/Header";
+import './TextMessage.scss'
+import {connect} from "react-redux";
 
-export default class TextMessage extends Component {
+const mapStateToProps = (state) => {
+    return {
+        textSend: state.messageGet.messageSend
+    }
+}
+
+const messageTabs = [];
+
+class TextMessage extends Component {
+
+    messageTab = () =>{
+        if (this.props){
+            messageTabs.push(mapStateToProps)
+        }
+
+    }
     render() {
+        const {textSend} = this.props;
         return (
-            <Segment
-                style={{marginLeft: '50%', position: 'relative', top: '85%', zIndex: 1000, width: '50%'}}>
-                <p>Portals have tons of great callback functions to hook into.</p>
-                <p>To close, simply click the close button or click away</p>
-            </Segment>
+            <div>
+            { !textSend.length ? " " :
+                    <div className="texto">
+                        <div className="photo">
+                            <div className="image-send"></div>
+                        </div>
+                        <p className="message-send">{textSend}</p>
+                    </div>
+            }
+            </div>
+
         )
     }
 }
+
+export default connect(mapStateToProps)(TextMessage)

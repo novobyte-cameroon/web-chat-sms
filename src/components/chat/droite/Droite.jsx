@@ -45,7 +45,7 @@ class Droite extends Component{
                         User
                     </div>
                     <div className={"droite-5 "+(infoContact ? "" : "hide")}>
-                        <Avatar size={size} round src={account} />
+                        <Avatar size={size} round src={account}/>
                     </div>
                     <div className="droite-6">
                         Files
@@ -60,7 +60,7 @@ class Droite extends Component{
                         <IconButton size={size} style={{ backgroundColor: '#e7ebed'}} className="item-user"><TheatersOutlinedIcon style={{opacity: '0.4'}}/></IconButton>
                     </div>
                     <div className="droite-10">
-                        <IconButton size={size} style={{ backgroundColor: '#e7ebed'}} className="item-user"><InsertDriveFileOutlinedIcon style={{opacity: '0.4'}}/></IconButton>
+                        <IconButton style={{ backgroundColor: '#e7ebed'}} className="item-user"><InsertDriveFileOutlinedIcon style={{opacity: '0.4'}}/></IconButton>
                     </div>
                 </div>
             </>

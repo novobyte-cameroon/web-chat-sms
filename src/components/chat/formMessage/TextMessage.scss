@@ -1,0 +1,33 @@
+@media screen and (min-width: 1200px){
+  .texto{
+    display: flex;
+    position: fixed;
+  }
+  .message-send{
+    display: flex;
+    flex-wrap: wrap;
+    white-space: normal;
+    background-color: blueviolet;
+    color: white;
+    padding: 1vh;
+    margin: 3vh;
+    position: relative;
+    font-size: medium;
+    height: auto;
+  }
+
+  .photo{
+    margin: 2vh;
+    width: 1%;
+  }
+
+  .image-send{
+    background-image: url("../../icons/pexels-pixabay-459653.jpg");
+    width: 5vh;
+    height: 5vh;
+    border-radius: 10vh;
+    background-position: 60% 60%;
+    background-size: cover;
+  }
+
+}

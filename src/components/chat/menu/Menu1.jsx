@@ -25,19 +25,19 @@ class Menu1 extends Component{
                         <div className="messenger-logo-add">
                             <Icon name="comments outline" size="huge"/>
                         </div>
-                        <div className="messenger-open-add">
+                        <div className="messenger-open">
                             <Label style={{backgroundColor: 'white'}}>
-                                <div style={{opacity: '0.3', color: 'gray', fontWeight: 'bold', fontSize: '2vh', float: 'right'}}>
+                                <div className="messenger-open">
                                     Open
                                 </div>
-                                <i><div style={{opacity: '0.5', color: 'blue', fontWeight: 'bold', fontSize: '4vh'}}>
+                                <i><div className="messenger-message">
                                     Messenger
                                 </div></i>
                             </Label>
                         </div>
                     </div>
                     <div className="bar">
-                        <Divider variant="inset" component="li"/>
+                        <Divider variant="inset"/>
                     </div>
                 </div>
                 <div className="menu-2-add item-center-main1">
@@ -45,7 +45,7 @@ class Menu1 extends Component{
                 </div>
                 <div className="menu-31-add">
                     <div className="back-arrow">
-                        <IconButton style={{ backgroundColor: '#dfe3e8', color: 'white'}} onClick={this.onBackClick}>
+                        <IconButton className="size-back-add"  style={{ backgroundColor: '#dfe3e8', color: 'white'}} onClick={this.onBackClick}>
                             <ArrowBackIcon/>
                         </IconButton>
                     </div>

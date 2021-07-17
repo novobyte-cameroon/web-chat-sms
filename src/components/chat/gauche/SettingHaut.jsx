@@ -13,10 +13,10 @@ export default class SettingHaut extends Component{
          <div className="setting-user">
              <div className="setting-compte">
                  <div className="setting-compte-1">
-                     <div className="col-5 icon-compte">
+                     <div className="icon-compte">
                          <Avatar round src={account} />
                      </div>
-                     <div className="col-9">
+                     <div className="nom">
                          <div className="nom-compte">
                              Tamko Clarence
                          </div>
@@ -25,19 +25,18 @@ export default class SettingHaut extends Component{
                          </div>
                      </div>
                  </div>
-                 <div></div>
-                 <div>
+                 <div className="setting-compte-2">
                      <IconButton><SettingsOutlinedIcon/></IconButton>
                  </div>
              </div>
              <div className="active-chat">
-                 <div className="col-6 active-add">
+                 <div className="active-add">
                      Active Chats
                  </div>
-                 <div><IconButton><AddBoxOutlinedIcon/></IconButton></div>
+                 <div className="active-add-1"><IconButton><AddBoxOutlinedIcon/></IconButton></div>
              </div>
              <div className="active-chat">
-                 <div className="col-10">
+                 <div className="search-bar">
                      <SearchAdd placeholder="Search people..."/>
                  </div>
              </div>

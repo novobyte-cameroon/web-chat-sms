@@ -9,18 +9,24 @@ import SendOutlinedIcon from '@material-ui/icons/SendOutlined';
 import EmojiEmotionsOutlinedIcon from '@material-ui/icons/EmojiEmotionsOutlined';
 import AttachFileOutlinedIcon from '@material-ui/icons/AttachFileOutlined';
 import ForumIcon from "@material-ui/icons/Forum";
+import {connect} from "react-redux";
 
-export default class InputAdd1 extends Component{
+class InputAdd1 extends Component{
     initialState = {
         message : ''
     };
     state = this.initialState;
 
-    onClick = (event) =>{
-
+    onHandleSend = (event) =>{
+        event.preventDefault();
+        const action ={
+            type: "MESSAGE_ENVOYE",
+            value: this.state.message
+        }
         this.setState({
-            message : this.state.value
-        });
+            message : ''
+        })
+        this.props.dispatch(action)
     };
 
     onHandleChange = (event) => {
@@ -29,18 +35,17 @@ export default class InputAdd1 extends Component{
         this.setState({
             [name]: value
         });
-        console.log(this.state.message)
     };
 
     render() {
         const {message} = this.state;
         return (
             <>
-                <Paper className="root-1-add" style={{borderRadius: '12vh'}}>
+                <div className="root-1-add" style={{borderRadius: '12vh'}}>
                     <InputBase
                         className="input"
                         placeholder="Enter your message here..." inputProps={{ 'aria-label': 'search google maps' }} value={message}
-                        name = "message" onChange={this.onHandleChange} onClick={this.onClick}
+                        name = "message" onChange={this.onHandleChange} onClick={this.onHandleSend}
                     />
                     <IconButton className={"iconButton"} aria-label="search">
                         <EmojiEmotionsOutlinedIcon />
@@ -52,9 +57,11 @@ export default class InputAdd1 extends Component{
                                 onChange={this.onHandleChange} onClick={this.onClick}>
                         <SendOutlinedIcon />
                     </IconButton>
-                </Paper>
+                </div>
             </>
         );
     }
 
 }
+
+export default connect()(InputAdd1)

@@ -1,8 +1,7 @@
-@media screen {
+@media screen and (min-width: 1200px){
   .setting-user{
     display: flex;
     flex-direction: column;
-    padding-top: 2vh;
     width: 100%;
   }
 
@@ -12,12 +11,21 @@
     flex-wrap: nowrap;
     height: 10vh;
     align-items: center;
+    margin: 2vh;
+    margin-left: 0vh;
   }
 
   .setting-compte-1{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: nowrap;
+    align-items: center;
+    width: 70%;
+  }
+
+  .setting-compte-2{
+    width: 10%;
   }
 
   .active-chat{
@@ -26,11 +34,15 @@
     justify-content: space-around;
     height: 8vh;
     align-items: center;
+    margin-right: 2vh;
+    margin-left: 1vh;
   }
-}
 
-
-@media screen and (min-width: 1200px){
+  .search-bar{
+    width: 100%;
+    margin-left: 2vh;
+    margin-right: 2vh;
+  }
 
   .nom-compte{
     margin-top: 0.2vh;
@@ -49,83 +61,226 @@
 
   .active-add{
     font-size: 2vh;
+    width: 60%;
+  }
+
+  .icon-compte{
+    width: 30%;
+  }
+
+  .nom{
+    width: 100%;
+  }
+
+  .active-add-1{
+    width: 10%;
   }
 }
 
-
-
 @media screen and (max-width: 1199px) and (min-width: 992px)  {
   .setting-user{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     padding-top: 3vh;
-    background-color: blue;
+  }
+
+  .setting-compte{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 10vh;
+    align-items: center;
+    margin: 2vh;
+    margin-bottom: 0vh;
+    width: 100%;
+  }
+
+  .setting-compte-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 75%;
+  }
+
+  .active-chat{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 8vh;
+    align-items: center;
+    margin-right: 2vh;
+  }
+
+  .search-bar{
+    width: 100%;
+    margin-left: 2vh;
+    margin-right: 2vh;
+  }
+  .setting-compte-2{
+    width: 30%;
   }
 
   .nom-compte{
-    margin-top: 2vh;
     opacity: 0.7;
     color: black;
-    font-size: 2.2vh;
+    font-size: 1.8vh;
     font-weight: bold;
   }
 
   .nom-compte-1{
-    margin-top: 0.4vh;
     opacity: 0.7;
     color: black;
-    font-size: 1.9vh;
+    font-size: 1.6vh;
   }
 
   .icon-compte{
-    padding-top: 0.8vh;
+    width: 10%;
+  }
+
+  .nom{
+    width: 75%;
   }
 
   .active-add{
-    margin-top: 3vh;
+    width: 65%;
+  }
+
+  .active-add-1{
+    width: 15%;
   }
 }
 
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
   .setting-user{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     padding-top: 3vh;
-    background-color: red;
+  }
+
+  .setting-compte{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 10vh;
+    align-items: center;
+    margin: 2vh;
+  }
+
+  .setting-compte-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 80%;
+  }
+
+  .active-chat{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 8vh;
+    align-items: center;
+  }
+
+  .setting-compte-2{
+    width: 20%;
   }
 
   .nom-compte{
-    margin-top: 2vh;
     opacity: 0.7;
     color: black;
-    font-size: 2.2vh;
+    font-size: 1.5vh;
     font-weight: bold;
+    width: 100%;
   }
 
   .nom-compte-1{
     margin-top: 0.4vh;
     opacity: 0.7;
     color: black;
-    font-size: 1.9vh;
+    font-size: 1.4vh;
   }
 
   .icon-compte{
-    padding-top: 0.8vh;
+    width: 25%;
+  }
+
+  .nom{
+    width: 65%;
   }
 
   .active-add{
-    margin-top: 3vh;
+    width: 50%;
   }
+
+  .active-add-1{
+    width: 15%;
+  }
+
+  .search-bar{
+    height: 6vh;
+    width: 100%;
+    margin-left: 2vh;
+    margin-right: 2vh;
+  }
+
 }
+
 
 @media screen and (max-width: 767px) {
   .setting-user{
-    padding-top: 3vh;
-    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .setting-compte{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 2vh;
+    flex-direction: column;
+    height: 20vh;
+  }
+
+  .setting-compte-1{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 80%;
+  }
+
+  .active-chat{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 8vh;
+    align-items: center;
+    margin-right: 2vh;
+    margin-left: 2vh;
+    flex-direction: column;
+  }
+
+  .search-bar{
+    width: 100%;
+    margin-left: 2vh;
+    margin-right: 2vh;
   }
 
   .nom-compte{
-    margin-top: 2vh;
     opacity: 0.7;
     color: black;
-    font-size: 2.2vh;
+    font-size: 1.4vh;
     font-weight: bold;
   }
 
@@ -133,14 +288,7 @@
     margin-top: 0.4vh;
     opacity: 0.7;
     color: black;
-    font-size: 1.9vh;
+    font-size: 1.2vh;
   }
 
-  .icon-compte{
-    padding-top: 0.8vh;
-  }
-
-  .active-add{
-    margin-top: 3vh;
-  }
 }

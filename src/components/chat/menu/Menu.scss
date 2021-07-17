@@ -111,7 +111,7 @@
     opacity: 0.5;
     color: blue;
     font-weight: bold;
-    font-size: 4vh;
+    font-size: 3vh;
   }
 
   .messenger-open{
@@ -161,7 +161,7 @@
   }
 
   .messenger-logo{
-    margin-left: 10vh;
+    margin-left: 4vh;
   }
 
   .bar{
@@ -173,7 +173,7 @@
     opacity: 0.5;
     color: blue;
     font-weight: bold;
-    font-size: 3vh;
+    font-size: 2vh;
   }
   .messenger-open{
     color: gray;
@@ -181,6 +181,7 @@
     opacity: 0.3;
     font-weight: bold;
   }
+
 
 }
 
@@ -191,7 +192,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     width: 100%;
-    height: 12vh;
+    height: 15vh;
     align-items: center;
     margin-top: 2vh;
     padding-top: 3.5vh;
@@ -199,44 +200,46 @@
   }
 
   .menu-1{
-    width: 34%;
+    width: 23%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
   }
 
   .menu-11{
-    width: 70%;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
   }
 
   .menu-2{
-    width: 60%;
-    height: 8.5vh;
+    width: 69%;
+    height: 11.5vh;
     background-color: #f4f5f8;
     border-radius: 2vh 2vh 0vh 0vh;
   }
   .menu-3{
-    width: 7%;
-    text-align: center;
+    width: 7.5%;
+    align-items: center;
   }
 
   .messenger-logo{
-    margin-left: 10vh;
+    margin-left: 4vh;
   }
 
   .bar{
-    width: 120%;
-    margin-left: -7vh;
+    width: 140%;
+    margin-left: -8vh;
+    height: 2vh;
   }
 
   .messenger-message{
     opacity: 0.5;
     color: blue;
     font-weight: bold;
-    font-size: 2.5vh;
+    font-size: 2.2vh;
   }
 
   .messenger-open{
@@ -246,10 +249,6 @@
     font-weight: bold;
   }
 
-  .text-size{
-    width: 10vh;
-    height: 10vh;
-  }
   .size-back{
     width: 4.5vh;
     height: 4.5vh;

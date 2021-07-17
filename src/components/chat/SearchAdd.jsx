@@ -12,7 +12,7 @@ export default class SearchAdd extends Component {
         const {placeholder} = this.props
         return (
             <div>
-                <Paper style={{backgroundColor: '#f9fafc'}}>
+                <div style={{backgroundColor: '#f9fafc'}}>
                     <div className="champ-recherche">
                         <div>
                             <i><InputBase
@@ -27,7 +27,7 @@ export default class SearchAdd extends Component {
                             </IconButton>
                         </div>
                     </div>
-                </Paper>
+                </div>
             </div>
         );
     }

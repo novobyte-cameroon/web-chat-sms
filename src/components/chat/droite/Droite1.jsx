@@ -43,18 +43,18 @@ class Droite1 extends Component{
                         <div className="group-name">
                             <div className="group-name-1">Family chat</div>
                             <div style={{opacity:'0.7', color: 'gray'}}>3 members</div>
-                            <div>Last message: Today 09:56</div>
+                            <div className="today">Last message: Today 09:56</div>
                         </div>
-                        <di style={{backgroundColor:'#f4f5f8', height: '4vh', width: '4vh', borderRadius: '0.7vh', padding: '0.4vh'}}>
+                        <div style={{backgroundColor:'#f4f5f8', height: '4vh', width: '4vh', borderRadius: '0.7vh', padding: '0.4vh'}}>
                             <CreateOutlinedIcon/>
-                        </di>
+                        </div>
                     </div>
                     <div className="phone-add">
                         <div className="droite-2-add" style={{ backgroundColor: '#76c00d'}}>
                             <div style={{width: '10%'}}>
                                 <LocalPhoneOutlinedIcon style={{color: 'white'}}/>
                             </div>
-                            <div style={{width: '55%'}}>Voice chat</div>
+                            <div style={{width: '55%'}} className="voice">Voice chat</div>
                         </div>
                         <div className="droite-3-add" style={{ backgroundColor: '#d03e13'}}>
                             <div style={{width: '10%'}}>
@@ -66,18 +66,17 @@ class Droite1 extends Component{
                         </div>
                     </div>
                     <div className="droite-4-add">
-                        <div style={{width: '65%'}}>
+                        <div className="call-history">
                             Call History
                         </div>
                         <div className="add-items">
                             <div className="add-user">
-                                <PersonAddOutlinedIcon/>
+                                <PersonAddOutlinedIcon className="button-add-user"/>
                             </div>
                             <div className="add-down">
-                                <ArrowDropDownOutlinedIcon/>
+                                <ArrowDropDownOutlinedIcon className="button-add-down"/>
                             </div>
                         </div>
-
                     </div>
                     <div className="droite-5-add">
                         <div className="droite-5-add-1">
